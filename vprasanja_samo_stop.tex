@@ -1,0 +1,28 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[slovene]{babel}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{parskip}
+
+\setlength{\parindent}{0pt}
+
+\newcounter{vprasanja}
+\newcommand{\vprasanje}[1]{\stepcounter{vprasanja} {\roman{vprasanja}. \bf #1}}
+
+\input{commands}
+\input{stop/commands}
+
+\title{Vprašanja iz snovi: Splošna topologija}
+\author{Patrik Žnidaršič}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\setcounter{vprasanja}{0}
+\input{stop/vo}
+
+\end{document}
