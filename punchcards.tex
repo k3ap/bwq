@@ -1,0 +1,45 @@
+\documentclass{report}
+\usepackage[margin=1in,landscape]{geometry}
+\usepackage[slovene]{babel}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{parskip}
+
+\setlength{\parindent}{0pt}
+
+\newcounter{vprasanja}
+\newcommand{\vprasanje}[1]{{\Huge \roman{vprasanja}. #1}}
+
+\newenvironment{vo}[1]
+			   {
+				 \stepcounter{vprasanja}
+				 {\centering \hspace{0pt} \\ \vspace{4cm} \vprasanje{#1}}
+				 \\
+				 \rule{23cm}{1px}
+				 \newpage
+				 {\centering \hspace{0pt} \\ \vspace{4cm} \vprasanje{#1}}
+				 \\
+				 \rule{23cm}{1px}
+				 \vspace{1cm}
+				 \LARGE
+			   }
+			   {\vfill \hspace{0px} \pagebreak}
+
+\input{commands}
+\input{stop/commands}
+
+\title{Vprašanja iz snovi: punchcards}
+\author{Patrik Žnidaršič}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\setcounter{vprasanja}{0}
+\chapter{Splošna topologija}
+\pagebreak
+\input{stop/vo}
+
+\end{document}

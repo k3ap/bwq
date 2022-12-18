@@ -1,4 +1,4 @@
-\vprasanje{Definiraj topologijo na $X$.}
+\begin{vo}{Definiraj topologijo na $X$.}
 
 Topologija na $X$ je družina $\T \subseteq X$ podmnožic, za katero velja:
 \begin{itemize}
@@ -9,20 +9,28 @@ Topologija na $X$ je družina $\T \subseteq X$ podmnožic, za katero velja:
 	\implies \nastevanje{U}{\cap}{n} \in \T$
 \end{itemize}
 
-\vprasanje{Kaj je okolica točke $x \in X$?}
+\end{vo}
+
+\begin{vo}{Kaj je okolica točke $x \in X$?}
 
 To je vsaka taka odprta množica $U \in \T$, ki vsebuje $x$.
 
-\vprasanje{Kdaj je točka $x \in A$ notranja?}
+\end{vo}
+
+\begin{vo}{Kdaj je točka $x \in A$ notranja?}
 
 Kadar $A$ vsebuje neko okolico $x$.
 
-\vprasanje{Kdaj je točka $x \in X$ mejna točka podmnožice
+\end{vo}
+
+\begin{vo}{Kdaj je točka $x \in X$ mejna točka podmnožice
   $A \subseteq X$?}
 
 Kadar vsaka okolica $x$ seka tako $A$ kot $A\complement$.
 
-\vprasanje{Kaj je notranjost, meja in kaj zaprtje množice
+\end{vo}
+
+\begin{vo}{Kaj je notranjost, meja in kaj zaprtje množice
   $A \subseteq X$?}
 
 $\Int A = \text{Največja odprta podmnožica $A$} =
@@ -33,15 +41,21 @@ $\Cl A = \text{Najmanjša zaprta nadmnožica $A$} =
 
 $\Fr A = \Cl A \brez \Int A$.
 
-\vprasanje{Kdaj je $x \in X$ stekališče $A \subseteq X$?}
+\end{vo}
+
+\begin{vo}{Kdaj je $x \in X$ stekališče $A \subseteq X$?}
 
 Kadar vsaka okolica $x$ seka $A \brez \{x\}$.
 
-\vprasanje{Kdaj je $x \in X$ limita zaporedja $(x_n)_n$?}
+\end{vo}
+
+\begin{vo}{Kdaj je $x \in X$ limita zaporedja $(x_n)_n$?}
 
 Kadar vsaka okolica $x$ vsebuje rep zaporedja.
 
-\vprasanje{Definiraj in karakteriziraj zveznost funkcije $f:X \to Y$.}
+\end{vo}
+
+\begin{vo}{Definiraj in karakteriziraj zveznost funkcije $f:X \to Y$.}
 
 $f$ je zvezna, če je praslika vsake odprte množice v $Y$ odprta v $X$.
 
@@ -49,7 +63,9 @@ Ekvivalentno, če je praslika vsake zaprte množice v $Y$ zaprta v $X$.
 
 Ekvivalentno, če je $\forall A \subseteq X . f(\cl{A}) \subseteq \cl{f(A)}$.
 
-\vprasanje{Kdaj je $f: X \to Y$ odprta in kdaj zaprta? Kaj velja, če je
+\end{vo}
+
+\begin{vo}{Kdaj je $f: X \to Y$ odprta in kdaj zaprta? Kaj velja, če je
   $f$ bijekcija?}
 
 Odprta je, če odprte množice slika v odprte.
@@ -58,7 +74,9 @@ Zaprta je, če zaprte množice slika v zaprte.
 
 Če je $f$ bijektivna, je odprta natanko tedaj, ko je zaprta.
 
-\vprasanje{Definiraj in karakteriziraj homeomorfizem.}
+\end{vo}
+
+\begin{vo}{Definiraj in karakteriziraj homeomorfizem.}
 
 To je bijekcija $f:X \to Y$, ki je zvezna in ima zvezen inverz.
 
@@ -66,59 +84,83 @@ Ekvivalentno, to je bijekcija $f: X \to Y$, ki je zvezna in odprta.
 
 Ekvivalentno, to je bijekcija $f: X \to Y$, ki je zvezna in zaprta.
 
-\vprasanje{Kaj je topološka lastnost?}
+\end{vo}
+
+\begin{vo}{Kaj je topološka lastnost?}
 
 To je lastnost prostora, ki se ohranja pri homeomorfizmih.
 
-\vprasanje{Definiraj bazo prostora $X$.}
+\end{vo}
+
+\begin{vo}{Definiraj bazo prostora $X$.}
 
 To je množica $B \subseteq \T$, da velja $\T = \{ \text{unije eltov $B$} \}$.
 
-\vprasanje{Naj bo $B \subseteq P(X)$. Kdaj je množica
+\end{vo}
+
+\begin{vo}{Naj bo $B \subseteq P(X)$. Kdaj je množica
   $\T = \{ \text{unije eltov $B$} \}$ topologija na $X$?}
 
 Natanko tedaj, ko je $\forall S, S' \in B . S \cap S' =
 \{ \text{unija nekih eltov $B$} \}$, in $\bigcup B = X$.
 
-\vprasanje{Kako določiš zaprtje in notranjost množice s pomočjo baze?}
+\end{vo}
+
+\begin{vo}{Kako določiš zaprtje in notranjost množice s pomočjo baze?}
 
 V vsaki točki $x$ iz zaprtja vsaka bazna okolica seka množico.
 
 Za vsako točko $x$ iz notranjosti obstaja bazna okolica, ki je povsem v množici.
 
-\vprasanje{Definiraj produktno topologijo.}
+\end{vo}
+
+\begin{vo}{Definiraj produktno topologijo.}
 
 Naj bosta $X$ in $Y$ topološka prostora, ter $B_X$ in $B_Y$ njuni bazi.
 Tedaj je $B_x \times B_Y$ baza za topologijo na $X \times Y$.
 
-\vprasanje{Kakšni preslikavi sta $\pr_X : X \times Y \to X$
+\end{vo}
+
+\begin{vo}{Kakšni preslikavi sta $\pr_X : X \times Y \to X$
   in $\pr_Y : X \times Y \to Y$?}
 
 Zvezni in odprti, nista pa zaprti.
 
-\vprasanje{Kdaj je $f = (f_1, f_2) : X \to Y_1 \times Y_2$ zvezna?}
+\end{vo}
+
+\begin{vo}{Kdaj je $f = (f_1, f_2) : X \to Y_1 \times Y_2$ zvezna?}
 
 Natanko tedaj, ko sta $f_1$ in $f_2$ zvezni.
 
-\vprasanje{Kaj je predbaza topologije?}
+\end{vo}
+
+\begin{vo}{Kaj je predbaza topologije?}
 
 Množica $P \subseteq P(X)$, če je $B = \{ \text{končni preseki eltov $P$} \}$
 baza.
 
-\vprasanje{Kako preveriš, da je $P$ predbaza $\T$?}
+\end{vo}
+
+\begin{vo}{Kako preveriš, da je $P$ predbaza $\T$?}
 
 Veljati mora $P \subseteq \T$ in $\T \subseteq \left<P\right>$.
 
-\vprasanje{Ali lahko zveznost preverjaš le na baznih eltih?
+\end{vo}
+
+\begin{vo}{Ali lahko zveznost preverjaš le na baznih eltih?
   Kaj pa le na predbaznih?}
 
 Da.
 
-\vprasanje{Kaj je lokalna baza okolic za točko $x \in X$?}
+\end{vo}
+
+\begin{vo}{Kaj je lokalna baza okolic za točko $x \in X$?}
 
 Taka družina odprtih množic, da vsaka okolica $x$ vsebuje nek elt lokalne baze.
 
-\vprasanje{Kdaj je prostor 1-števen in kdaj 2-števen?
+\end{vo}
+
+\begin{vo}{Kdaj je prostor 1-števen in kdaj 2-števen?
   Kako sta lastnosti povezani?}
 
 Prostor $X$ je 1-števen, če za vsako točko $x \in X$ obstaja
@@ -128,45 +170,63 @@ Prostor $X$ je 2-števen, če obstaja števna baza.
 
 Če je prostor 2-števen, je 1-števen.
 
-\vprasanje{Kako dobimo bazo topologije, če imamo dane vse lokalne baze?}
+\end{vo}
+
+\begin{vo}{Kako dobimo bazo topologije, če imamo dane vse lokalne baze?}
 
 Unija lokalnih baz je baza topologije.
 
-\vprasanje{Kaj je $L(A)$? Kakšen je v primerjavi z $A$ in z $\cl{A}$?}
+\end{vo}
+
+\begin{vo}{Kaj je $L(A)$? Kakšen je v primerjavi z $A$ in z $\cl{A}$?}
 
 To je množica vseh limit zaporedij v $A$.
 Velja $A \subseteq L(A) \subseteq \cl{A}.$
 
-\vprasanje{Kdaj je $A \subseteq X$ povsod gosta? Povej dve karakterizaciji.}
+\end{vo}
+
+\begin{vo}{Kdaj je $A \subseteq X$ povsod gosta? Povej dve karakterizaciji.}
 
 Kadar je $\cl{A} = X$.
 
 To je natanko tedaj, ko $A$ seka vsako odprto množico v $X$.
 
-\vprasanje{Kdaj je $X$ separabilen?}
+\end{vo}
+
+\begin{vo}{Kdaj je $X$ separabilen?}
 
 Kadar obstaja števna gosta podmnožica.
 
-\vprasanje{Kaj velja za števnostne lastnosti metričnih prostorov?}
+\end{vo}
+
+\begin{vo}{Kaj velja za števnostne lastnosti metričnih prostorov?}
 
 Vsi metrični prostori so 1-števni.
 
 Metrični prostori so separabilni natanko tedaj, ko so 2-števni.
 
-\vprasanje{Definiraj topološki podprostor.}
+\end{vo}
+
+\begin{vo}{Definiraj topološki podprostor.}
 
 Naj bo $A \subseteq X$. Opremimo ga z inducirano topologijo
 $\T_A = \{ U \cap A \such U \in \T_X \}$.
 
-\vprasanje{Opiši zaprte množice v podprostoru $A \subseteq X$.}
+\end{vo}
+
+\begin{vo}{Opiši zaprte množice v podprostoru $A \subseteq X$.}
 
 To so natanko preseki zaprtih množic v $X$ z $A$.
 
-\vprasanje{Kako dobiš bazo za podprostor $A \subseteq X$?}
+\end{vo}
+
+\begin{vo}{Kako dobiš bazo za podprostor $A \subseteq X$?}
 
 Sekaš elte baze za $X$ z $A$.
 
-\vprasanje{Naj bo $B \subseteq A \subseteq X$. Povej razmerja med zaprtjem,
+\end{vo}
+
+\begin{vo}{Naj bo $B \subseteq A \subseteq X$. Povej razmerja med zaprtjem,
 notranjostjo ter mejo $B$ v $A$ ter v $X$.}
 
 $\Cl_A B = (\Cl_X B) \cap A$
@@ -175,38 +235,52 @@ $\Int_A B \supseteq \Int_X B$
 
 $\Fr_A B \subseteq \Fr_X B$
 
-\vprasanje{Naj bo $B \subseteq A$ odprta množica. Kaj mora veljati, da bo
+\end{vo}
+
+\begin{vo}{Naj bo $B \subseteq A$ odprta množica. Kaj mora veljati, da bo
 $B$ sigurno odprta tudi v $X$?}
 
 $A$ mora biti odprta v $X$.
 
-\vprasanje{Naj bo $f: X \to Y$ zvezna in $A \subseteq X$.
+\end{vo}
+
+\begin{vo}{Naj bo $f: X \to Y$ zvezna in $A \subseteq X$.
   Kaj mora veljati za $A$, da bo zožitev $f$ na $A$ zvezna?}
 
 Vedno bo zvezna.
 
-\vprasanje{Kdaj je zaprto pokritje $\{X_\lambda\}_\lambda$ lokalno končno?}
+\end{vo}
+
+\begin{vo}{Kdaj je zaprto pokritje $\{X_\lambda\}_\lambda$ lokalno končno?}
 
 Kadar za vsak $x \in X$ obstaja okolica $U \ni x$, ki seka natanko končno mnogo
 $X_\lambda$.
 
-\vprasanje{Kako preverjaš zveznost funkcije, definirane kosoma na pokritju?}
+\end{vo}
+
+\begin{vo}{Kako preverjaš zveznost funkcije, definirane kosoma na pokritju?}
 
 Če je pokritje zaprto lokalno končno ali odprto, in so vse zožitve zvezne,
 in je $f$ enolična (se ujema na presekih pokritja), potem je $f$ zvezna,
 in je edina zvezna funkcija s takimi zožitvami.
 
-\vprasanje{Kaj je vložitev?}
+\end{vo}
+
+\begin{vo}{Kaj je vložitev?}
 
 To je funkcija $f: X \to Y$, ki je homeomorfizem na svojo sliko z inducirano
 topologijo na sliki.
 
-\vprasanje{Kateri razred preslikav v metričnih prostorih so
+\end{vo}
+
+\begin{vo}{Kateri razred preslikav v metričnih prostorih so
 avtomatično vložitve?}
 
 Izometrije.
 
-\vprasanje{Kaj velja za odprte in zaprte vložitve?}
+\end{vo}
+
+\begin{vo}{Kaj velja za odprte in zaprte vložitve?}
 
 Če je $f: X \to Y$ zvezna injekcija in $f(X)$ odprta v $Y$, je $f$ vložitev
 natanko tedaj, ko je odprta.
@@ -214,7 +288,9 @@ natanko tedaj, ko je odprta.
 Če je $f: X \to Y$ zvezna injekcija in $f(X)$ zaprta v $Y$, je $f$ vložitev
 natanko tedaj, ko je zaprta.
 
-\vprasanje{Definiraj $\Ti{0}, \Ti{1}, \Ti{2}, \Ti{3}, \Ti{4}$.}
+\end{vo}
+
+\begin{vo}{Definiraj $\Ti{0}, \Ti{1}, \Ti{2}, \Ti{3}, \Ti{4}$.}
 
 \begin{itemize}
   \item $\Ti{0}$: Za $x \ne y$ obstaja okolica $U \in \T$, da velja
@@ -225,11 +301,15 @@ natanko tedaj, ko je zaprta.
   \item $\Ti{4}$: Topologija ostro loči zaprte množice.
 \end{itemize}
 
-\vprasanje{Katere aksiome ločljivosti lahko preverjaš na baznih eltih?}
+\end{vo}
+
+\begin{vo}{Katere aksiome ločljivosti lahko preverjaš na baznih eltih?}
 
 $\Ti{2}, \Ti{1}, \Ti{0}$ ter $\Ti{3}$ za bazne okolice točke.
 
-\vprasanje{Kako drugače rečemo prostorom $\Ti{0}, \Ti{1}, \Ti{2}$?
+\end{vo}
+
+\begin{vo}{Kako drugače rečemo prostorom $\Ti{0}, \Ti{1}, \Ti{2}$?
 Kdaj je prostor regularen in kdaj normalen?}
 
 \begin{itemize}
@@ -242,18 +322,24 @@ Kdaj je prostor regularen in kdaj normalen?}
     normalen (dovolj $\Ti{4} \land \Ti{1}$)
 \end{itemize}
 
-\vprasanje{Katera družina prostorov je avtomatično normalna?}
+\end{vo}
+
+\begin{vo}{Katera družina prostorov je avtomatično normalna?}
 
 Metrizabilni prostori.
 
-\vprasanje{Karakteriziraj Hausdorffovo lastnost.}
+\end{vo}
+
+\begin{vo}{Karakteriziraj Hausdorffovo lastnost.}
 
 $X$ je Hausdorffov natanko tedaj, ko za vsaki točki $x \ne y$ obstaja okolica
 $U \ni x$, da velja $y \notin \cl{U}$.
 
 Ekvivalentno, če je $\Delta_X$ zaprta v $X \times X$.
 
-\vprasanje{Kaj pove Hausdorffova lastnost o zaporedjih in o zveznih funkcijah?}
+\end{vo}
+
+\begin{vo}{Kaj pove Hausdorffova lastnost o zaporedjih in o zveznih funkcijah?}
 
 Če je $Y$ Hausdorffov, imajo zaporedja v $Y$ največ eno limito.
 
@@ -263,18 +349,24 @@ Ekvivalentno, če je $\Delta_X$ zaprta v $X \times X$.
 
 Če je $f: X \to Y$ zvezna, je njen graf zaprta podmnožica v $X \times Y$.
 
-\vprasanje{Kaj mora veljati, da lahko zamenjaš limito in funkcijo v zapisu
+\end{vo}
+
+\begin{vo}{Kaj mora veljati, da lahko zamenjaš limito in funkcijo v zapisu
 $f(\lim_i x_i)$?}
 
 $f: X \to Y$ mora biti zvezna, zaporedje $(x_i)_i$ konvergentno, $X$ 1-števen
 in $Y$ Hausdorffov.
 
-\vprasanje{Kakšna je povezava med Fréchetovim prostorom in topologijo končnih
+\end{vo}
+
+\begin{vo}{Kakšna je povezava med Fréchetovim prostorom in topologijo končnih
 komplementov?}
 
 Če je $X$ Fréchetov, velja $\T_X \supseteq \T_{KK}$.
 
-\vprasanje{Karakteriziraj Fréchetovo in Hausdorffovo lastnost z enojci.}
+\end{vo}
+
+\begin{vo}{Karakteriziraj Fréchetovo in Hausdorffovo lastnost z enojci.}
 
 $X$ je Fréchetov natanko tedaj, ko je za vsak $x \in X$ enojec $\{x\}$
 enak preseku vseh okolic $x$.
@@ -282,30 +374,42 @@ enak preseku vseh okolic $x$.
 $X$ je Hausdorffov natanko tedaj, ko je za vsak $x \in X$ enojec $\{x\}$
 enak preseku vseh zaprtih okolic točke $x$.
 
-\vprasanje{Kaj velja za končne $\Ti{1}$ prostore?}
+\end{vo}
+
+\begin{vo}{Kaj velja za končne $\Ti{1}$ prostore?}
 
 So diskretni.
 
-\vprasanje{Naj bo $X$ regularen prostor. Povej zadosten pogoj, da bo $X$
+\end{vo}
+
+\begin{vo}{Naj bo $X$ regularen prostor. Povej zadosten pogoj, da bo $X$
 normalen.}
 
 Biti mora $\Ti{4}$ ali 2-števen.
 
-\vprasanje{Karakteriziraj lastnost $\Ti{3}$.}
+\end{vo}
+
+\begin{vo}{Karakteriziraj lastnost $\Ti{3}$.}
 
 Prostor $X$ je $\Ti{3}$ natanko tedaj, ko za vsak $x \in X$ in vsako
 okolico $U \ni x$ obstaja manjša okolica $V \ni x$, da je $\cl{V} \subseteq U$.
 
-\vprasanje{Za naslednje lastnosti povej, če se dedne in če so produktne:
+\end{vo}
+
+\begin{vo}{Za naslednje lastnosti povej, če se dedne in če so produktne:
 diskretnost, trivialnost, 1-števnost, 2-števnost, metrizabilnost.}
 
 Vse so dedne in produktne.
 
-\vprasanje{Kaj velja za dednost separabilnosti in kompaktnosti?}
+\end{vo}
+
+\begin{vo}{Kaj velja za dednost separabilnosti in kompaktnosti?}
 
 Separabilnost je dedna na odprte podprostore, kompaktnost pa na zaprte.
 
-\vprasanje{Kaj velja za dednost in produktnost ločljivostnih lastnosti?}
+\end{vo}
+
+\begin{vo}{Kaj velja za dednost in produktnost ločljivostnih lastnosti?}
 
 \begin{table}[h!]
 \centering
@@ -322,14 +426,20 @@ normalnost     & na zaprte podprostore & ne         \\
 \end{table}
 
 
-\vprasanje{Kaj je topologija vsebovane točke?}
+\end{vo}
+
+\begin{vo}{Kaj je topologija vsebovane točke?}
 
 Naj bo $X$ množica in $t \in X$. Topologija vsebovane točke je
 $\T_{VT} := \{ U \subseteq X \such t \in U \lor U = \varnothing \}$
 
-\vprasanje{Kaj je Sorgenfreyeva premica? Ali je Sorgenfreyeva ravnina $\Ti{4}$?}
+\end{vo}
+
+\begin{vo}{Kaj je Sorgenfreyeva premica? Ali je Sorgenfreyeva ravnina $\Ti{4}$?}
 
 To je $\R_S$, opremljena s topologijo, katere baza je
 $B_S = \{[a, b) \such a,b \in \R, a < b\}$.
 
 Ni $\Ti{4}$.
+
+\end{vo}

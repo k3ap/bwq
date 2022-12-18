@@ -10,6 +10,7 @@
 
 \newcounter{vprasanja}
 \newcommand{\vprasanje}[1]{\stepcounter{vprasanja} {\roman{vprasanja}. \bf #1}}
+\newenvironment{vo}[1]{\vprasanje{#1}}{}
 
 \input{commands}
 \input{stop/commands}
