@@ -20,11 +20,18 @@
 				 \newpage
 				 {\centering \hspace{0pt} \\ \vspace{4cm} \vprasanje{#1}}
 				 \\
-				 \rule{23cm}{1px}
 				 \vspace{1cm}
-				 \LARGE
+				 \rule{23cm}{1px}
+				 \huge
 			   }
 			   {\vfill \hspace{0px} \pagebreak}
+
+
+\newcommand{\podnaslov}[1]{
+  {\Huge \bf #1} \\
+  \vfill
+  \pagebreak
+}
 
 \input{commands}
 \input{stop/commands}
@@ -40,6 +47,12 @@
 \setcounter{vprasanja}{0}
 \chapter{Splošna topologija}
 \pagebreak
-\input{stop/vo}
+\podnaslov{Prvi kolokvij}
+\input{stop/vo_k1}
+\pagebreak
+
+\podnaslov{Drugi kolokvij}
+\input{stop/vo_k2}
+\pagebreak
 
 \end{document}
