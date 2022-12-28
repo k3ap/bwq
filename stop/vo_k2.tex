@@ -1,0 +1,163 @@
+\begin{vo}{Kdaj je prostor povezan?}
+  Če ga ni mogoče zapisati kot disjunktno unijo nepraznih odprtih množic.
+\end{vo}
+
+\begin{vo}{Povej tri ekvivalentne definicije za povezanost prostora $X$.}
+  \begin{itemize}
+	\item $X$ ni mogoče zapisati kot disjunktno unijo nepraznih zaprtih množic.
+	\item Edini podmnožici, ki sta hkrati odprti in zaprti, sta $X$ in $\varnothing$ .
+	\item Ne obstaja zvezna surjekcija $f: X \to \{0, 1\}$.
+  \end{itemize}
+\end{vo}
+
+
+\begin{vo}{Opiši vse povezane podmnožice v $\R$.}
+  To so natanko intervali.
+\end{vo}
+
+\begin{vo}{Kaj velja za zvezne slike povezanih prostorov?}
+  So tudi povezane.
+\end{vo}
+
+\begin{vo}{Kaj velja za unije in kaj za produkte povezanih prostorov?}
+  Če so $\{A_\lambda\}_\lambda$ povezani podprostori $X$ in velja
+  $\bigcup_\lambda A_\lambda \ne \varnothing$, potem je njihova unija povezana.
+
+  Produkt povezanih prostorov je povezan.
+\end{vo}
+
+\begin{vo}{Kako je s povezanostjo zaprtja množice $A \subseteq X$?}
+  Če je $A$ povezana in $A \subseteq B \subseteq \cl{A}$, je $B$ povezana.
+\end{vo}
+
+\begin{vo}{Naštej nekaj primerov povezanih množic v $\R^n$.}
+  \begin{itemize}
+	\item Vse konveksne množice so povezane.
+	\item Vse zvezdaste množice so povezane
+	  (množica je zvezdasta, če obstaja točka, ki se jo ``vidi'' iz vsake druge točke v množici).
+	\item Oble $S^n$ so povezane.
+	\item Komplement števne množice v $\R^n$ je povezan.
+  \end{itemize}
+\end{vo}
+
+\begin{vo}{Povej izrek o bisekciji.}
+  Naj bo $X$ povezan in $f: X \to \R$ zvezna. Če obstajata $a,b \in X$, da velja
+  $f(a) \le 0 \land f(b) \ge 0$, obstaja $c \in X$, da je $f(c) = 0$.
+\end{vo}
+
+\begin{vo}{Definiraj povezanost s potmi.}
+  Topološki prostor $X$ je povezan s potmi, če za vsaki dve točki $x, y \in X$ obstaja zvezna preslikava
+  $\gamma: [0,1] \to X$, da velja $\gamma(0) = x$ in $\gamma(1) = y$.
+\end{vo}
+
+\begin{vo}{Kako lahko preverjaš povezanost s potmi?}
+  Obstajati mora točka $a \in X$, da za vsak $x \in X$ obstaja pot med $a$ in $b$.
+\end{vo}
+
+\begin{vo}{Definiraj komponento $C(x)$ za $x \in X$. Kaj velja za $C(x)$?}
+  To je unija vseh povezanih podprostorov $X$, ki vsebujejo točko $x$.
+
+  To je največja povezana podmnožica $X$, ki vsebuje $x$. Je zaprt podprostor.
+\end{vo}
+
+\begin{vo}{Kaj je povsem nepovezan prostor? Povej primer.}
+  To je prostor, katerega komponente so točke, npr. $\Q$ z Evklidsko topologijo.
+\end{vo}
+
+\begin{vo}{Kdaj je prostor lokalno povezan?}
+  Kadar ima bazo iz povezanih množic.
+\end{vo}
+
+\begin{vo}{Zakaj so imena v topologiji trapasta?}
+  Diskreten prostor je hkrati lokalno povezan in povsem nepovezan.
+\end{vo}
+
+\begin{vo}{Karakteriziraj lokalno povezanost.}
+  Prostor $X$ je lokalno povezan natanko tedaj, ko so komponente
+  odprte množice v $X$ odprte.
+\end{vo}
+
+\begin{vo}{Kaj velja za komponente v prostoru, ki je lokalno povezan s potmi?}
+  Če je prostor lokalno povezan s potmi, so komponente enake komponentam za povezanost s potmi.
+\end{vo}
+
+\begin{vo}{Kaj potrebujemo, da bo povezan prostor povezan tudi s potmi?}
+  Lokalno povezanost s potmi.
+\end{vo}
+
+\begin{vo}{Definiraj kompaktnost.}
+  Prostor $X$ je kompakten, če v vsakem odprtem pokritju $X$ obstaja končno podpokritje.
+\end{vo}
+
+\begin{vo}{Kdaj pokritja z bazičnimi množicami niso dovolj za preverjanje kompaktnosti.}
+  Za preverjanje kompaktnosti so pokritja z bazičnimi množicami vedno dovolj.
+\end{vo}
+
+\begin{vo}{Kaj velja za kompaktnost metričnih in diskretnih prostorov?}
+  Kompakten metričen prostor je omejen.
+
+  Diskreten prostor je kompakten natanko tedaj, ko je končen.
+\end{vo}
+
+\begin{vo}{Kako je z dednostjo in produktnostjo kompaktnosti?}
+  Je dedna na zaprte podprostore. Je produktna.
+\end{vo}
+
+\begin{vo}{Opiši kompaktne podmnožice v $\R^n$.}
+  To so natanko zaprte in omejene množice.
+\end{vo}
+
+\begin{vo}{Kaj mora veljati, da bo kompakten podprostor zaprt?}
+  $\Ti{2}$.
+\end{vo}
+
+\begin{vo}{Kaj vemo o zveznih preslikavah iz kompakta v $\R$?}
+  So omejene in dosežejo minimum in maksimum.
+\end{vo}
+
+\begin{vo}{Kaj velja za stekališča podmnožice v kompaktu?}
+  Če je množica neskončna, ima stekališče.
+\end{vo}
+
+\begin{vo}{Kaj še potrebujemo, da bo kompakten prostor normalen?}
+  $\Ti{2}$.
+\end{vo}
+
+\begin{vo}{Kaj še potrebujemo, da bo kompakten prostor 2-števen?}
+  Metrizabilnost.
+\end{vo}
+
+\begin{vo}{Karakteriziraj kompaktnost.}
+  $X$ je kompakten natanko tedaj, ko v vsaki družini zaprtih množic s praznim presekom
+  najdemo končno poddružino s praznim presekom.
+\end{vo}
+
+\begin{vo}{Naj bo $X$ kompakt in $X \supseteq F_1 \supseteq F_2 \supseteq \ldots$ padajoče zaporedje množic.
+	Kaj lahko poveš o njihovem preseku?}
+
+  Če so množice zaprte (in neprazne), imajo neprazen presek.
+\end{vo}
+
+\begin{vo}{Naj bosta $X, Y$ metrizabilna, $X$ kompakt in $f : X \to Y$ zvezna. Kakšna je še $f$?}
+  Enakomerno zvezna.
+\end{vo}
+
+\begin{vo}{Povej Lebegovo lemo.}
+  Za vsako odprto pokritje $U$ metričnega kompakta $X$ obstaja število $\lambda > 0$, da
+  vsaka krogla $K(x, \lambda)$ leži v celoti v nekem elementu pokritja $U$.
+\end{vo}
+
+\begin{vo}{Kdaj je prostor $X$ lokalno kompakten?}
+  Če ima vsaka točka vsaj eno kompaktno okolico (ki ni nujno odprta).
+\end{vo}
+
+\begin{vo}{Kdaj je odprta množica $U$ relativno kompaktna?}
+  Če je $\cl{U}$ kompakt.
+\end{vo}
+
+\begin{vo}{Kaj velja za lokalno kompaktnost v Hausdorffovih prostorih?}
+  Če je $X$ Hausdorffov, je lokalno kompakten natanko tedaj, ko ima bazo
+  iz relativno kompaktnih odprtih množic.
+
+  Če je Hausdorffov prostor $X$ lokalno kompakten, ima vsaka točka kompaktno okolico.
+\end{vo}
